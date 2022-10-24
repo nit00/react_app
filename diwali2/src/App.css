@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Base */
+body {
+  padding: 0;
+  margin: 0!important;
+  background-color: #000!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  position: relative;
+  color: yellow;
+  font-weight: bold!important;
+  font-family: "Anonymous Pro", monospace!important;
+  letter-spacing: 7px!important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 2s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 210px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: whitesmoke;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#happy{
+  margin: 20%  20%  20%  10%;
+  font-size: 56px;
+  font-family: 'Courier New', Courier, monospace,cursive
+}
+#diwali{
+
+  margin: 5%  0%  0%  8%;
+  font-size: 56px;
+  color: orange;
+}
